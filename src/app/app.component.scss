@@ -1,0 +1,36 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: initial;
+  padding: initial;
+}
+
+.navbar{
+  border-radius: 0px;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.content{
+  flex: 6 1;
+  background-color: darken($color: grey, $amount: 30);
+  color: whitesmoke;
+}
+
+
+.menu{
+  flex: 1 ;
+  border: solid;
+  border-width: 1px;
+}
+
+.footer{
+  background-color:darken($color: grey, $amount: 37);
+  flex: 0 0 50px;
+  color: whitesmoke;
+}
